@@ -2,7 +2,6 @@ import { Button } from "@/components/ui/button";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { Fragment } from "react";
 import Link from "next/link";
-
 export default function Home() {
   return (
     <Fragment>
