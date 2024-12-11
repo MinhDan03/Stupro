@@ -10,7 +10,7 @@ export default function Home() {
           <h1 className="text-center text-green-800 font-bold">STUPRO</h1>
           <div className="flex gap-1 text-center mt-2">
             <Button>
-              <Link href={"/category"}>Category</Link>
+              <Link href={"/login"}>Login</Link>
             </Button>
             {/* avatar */}
             <Avatar>
