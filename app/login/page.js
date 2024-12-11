@@ -34,17 +34,17 @@ export default function Login() {
             <div className="text-[#08080a] text-2xl font-semibold font-['Inter'] leading-loose">
               Đăng nhập
             </div>
-            <div className="text-zinc-700 text-base font-medium font-['Inter'] leading-tight">
+            <div className="text-zinc-500 text-sm font-medium font-['Inter'] leading-tight">
               Vui lòng nhập thông tin để đăng nhập
             </div>
           </div>
           <div className="h-72 flex-col justify-start items-center gap-6 flex">
             <div className="self-stretch h-[168px] flex-col justify-start items-center gap-2 flex">
               <div className="self-stretch h-9 px-3 py-1 bg-white rounded-md shadow border border-[#e3e3e7] justify-start items-center inline-flex">
-                <input type="text" className="w-[227px] text-black text-base font-medium font-['Inter'] outline-none placeholder:text-black" placeholder="Nhập email" name="" id="" />
+                <input type="text" className="w-[227px] text-black text-sm font-medium font-['Inter'] outline-none placeholder:text-black" placeholder="Nhập email" name="" id="" />
               </div>
               <div className="self-stretch h-9 px-3 py-1 bg-white rounded-md shadow border border-[#e3e3e7] justify-start items-center inline-flex">
-                <input type="password" className="w-[227px] text-black text-base font-normal font-['Inter'] outline-none placeholder:text-black" placeholder="Nhập mật khẩu" name="" id="" />
+                <input type="password" className="w-[227px] text-black text-sm font-normal font-['Inter'] outline-none placeholder:text-black" placeholder="Nhập mật khẩu" name="" id="" />
               </div>
               <div className="self-stretch py-2 justify-end items-center gap-2.5 inline-flex">
                 <div className="text-center text-zinc-700 text-base font-normal font-['Inter'] leading-tight hover:text-zinc-900">
@@ -52,7 +52,7 @@ export default function Login() {
                 </div>
               </div>
               <Link href={'/'} className="self-stretch h-9 px-4 py-2 bg-[#000000] rounded-md shadow justify-center items-center gap-2 inline-flex">
-                <div className="text-[#f9f9f9] text-base font-bold font-['Inter'] leading-tight">
+                <div className="text-[#f9f9f9] text-base font-medium font-['Inter'] leading-tight">
                   Đăng nhập
                 </div>
               </Link>

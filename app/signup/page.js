@@ -36,7 +36,7 @@ export default function SignUp() {
             <div className="text-[#08080a] text-2xl font-semibold font-['Inter'] leading-loose">
               Đăng ký
             </div>
-            <div className="text-zinc-700 text-base font-normal font-['Inter'] leading-tight">
+            <div className="text-zinc-500 text-sm font-normal font-['Inter'] leading-tight">
               Vui lòng nhập thông tin để đăng ký
             </div>
           </div>
@@ -45,7 +45,7 @@ export default function SignUp() {
               <div className="self-stretch h-9 px-3 py-1 bg-white rounded-md shadow border border-[#e3e3e7] justify-start items-center inline-flex">
                 <input
                   type="text"
-                  className="w-[310px] text-zinc-800 text-base font-normal font-['Inter'] leading-tight outline-none placeholder:text-zinc-800"
+                  className="w-[310px] text-zinc-800 text-sm font-normal font-['Inter'] leading-tight outline-none placeholder:text-zinc-800"
                   placeholder="Nhập tên"
                   name=""
                   id=""
@@ -54,13 +54,13 @@ export default function SignUp() {
               <div className="self-stretch h-9 px-3 py-1 bg-white rounded-md shadow border border-[#e3e3e7] justify-start items-center inline-flex">
                 <input
                   type="email"
-                  className="w-[310px] text-zinc-800 text-base font-normal font-['Inter'] leading-tight outline-none placeholder:text-zinc-800"
+                  className="w-[310px] text-zinc-800 text-sm font-normal font-['Inter'] leading-tight outline-none placeholder:text-zinc-800"
                   placeholder="Nhập email"
                   name=""
                   id=""
                 />
               </div>
-              <select className="self-stretch h-9 px-3 py-1 bg-white rounded-md shadow border border-[#e3e3e7] justify-start items-center inline-flex text-zinc-800 text-base font-normal font-['Inter']">
+              <select className="self-stretch h-9 px-3 py-1 bg-white rounded-md shadow border border-[#e3e3e7] justify-start items-center inline-flex text-zinc-800 text-sm font-normal font-['Inter']">
                 <option defaultValue="Chọn trường học">
                   Chọn trường học
                 </option>
@@ -71,7 +71,7 @@ export default function SignUp() {
               <div className="self-stretch h-9 px-3 py-1 bg-white rounded-md shadow border border-[#e3e3e7] justify-start items-center inline-flex">
                 <input
                   type="text"
-                  className="w-[310px] text-zinc-800 text-base font-normal font-['Inter'] leading-tight outline-none placeholder:text-zinc-800"
+                  className="w-[310px] text-zinc-800 text-sm font-normal font-['Inter'] leading-tight outline-none placeholder:text-zinc-800"
                   placeholder="Nhập mã số sinh viên"
                   name=""
                   id=""
@@ -80,7 +80,7 @@ export default function SignUp() {
               <div className="self-stretch h-9 px-3 py-1 bg-white rounded-md shadow border border-[#e3e3e7] justify-start items-center inline-flex">
                 <input
                   type="password"
-                  className="w-[310px] text-zinc-800 text-base font-normal font-['Inter'] leading-tight outline-none placeholder:text-zinc-800"
+                  className="w-[310px] text-zinc-800 text-sm font-normal font-['Inter'] leading-tight outline-none placeholder:text-zinc-800"
                   placeholder="Nhập mật khẩu"
                   name=""
                   id=""
@@ -89,14 +89,14 @@ export default function SignUp() {
               <div className="self-stretch h-9 px-3 py-1 bg-white rounded-md shadow border border-[#e3e3e7] justify-start items-center inline-flex">
                 <input
                   type="password"
-                  className="w-[310px] text-zinc-800 text-base font-normal font-['Inter'] leading-tight outline-none placeholder:text-zinc-800"
+                  className="w-[310px] text-zinc-800 text-sm font-normal font-['Inter'] leading-tight outline-none placeholder:text-zinc-800"
                   placeholder="Nhập lại mật khẩu"
                   name=""
                   id=""
                 />
               </div>
               <Link href={'/email-confirmation'} className="self-stretch h-9 px-4 py-2 bg-[#000000] rounded-md shadow justify-center items-center gap-2 inline-flex relative">
-                <div className="text-[#f9f9f9] text-base font-bold font-['Inter'] leading-tight">
+                <div className="text-[#f9f9f9] text-base font-medium font-['Inter'] leading-tight">
                   Đăng ký
                 </div>
               </Link>

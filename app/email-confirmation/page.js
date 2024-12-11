@@ -58,7 +58,7 @@ export default function EmailConfirmation() {
                 </div>
               </div>
               <Link href={'continue'} className="self-stretch h-9 px-4 py-2 bg-[#000000] rounded-md shadow justify-center items-center gap-2 inline-flex">
-                <div className="text-[#f9f9f9] text-base font-bold font-['Inter'] leading-tight">
+                <div className="text-[#f9f9f9] text-base font-medium font-['Inter'] leading-tight">
                   Tiếp tục
                 </div>
               </Link>
